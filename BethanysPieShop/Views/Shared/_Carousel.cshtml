@@ -1,0 +1,44 @@
+﻿<div class="img-container carousel" data-ride="carousel">
+    <div id="carouselImages" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselImages" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselImages" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselImages" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="~/images/carousel1.jpg" class="d-block w-100" alt="Carousel image 1" max-height="850" />
+            </div>
+
+            <div class="carousel-item">
+                <img src="~/images/carousel2.jpg" class="d-block w-100" alt="Carousel image 2" max-height="850" />
+            </div>
+
+            <div class="carousel-item">
+                <img src="~/images/carousel3.jpg" class="d-block w-100" alt="Carousel image 3" id="firstImage" />
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .img-container {
+        margin-top: 40px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    #firstImage {
+        max-height: 850px !important;
+    }
+</style>
+
+
+<script>
+    $(document).ready(function () {
+        $('.img-container').carousel({
+            interval: 3000
+        });
+    });
+</script>

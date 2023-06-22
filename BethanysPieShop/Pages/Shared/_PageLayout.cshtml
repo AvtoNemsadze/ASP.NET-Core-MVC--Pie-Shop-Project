@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Bethany's Pie</title>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/site.css" rel="stylesheet" />
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+
+    <script src="~/lib/jquery-validate/jquery.validate.js"></script>
+    <script asp-src-include="lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+
+    <title>Bethany's Pie Shop</title>
+</head>
+<body>
+    <div>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark custom-bg-color">
+                <a class="navbar-brand" asp-controller="Home" asp-action="Index">
+                    <img src="~/images/bethanylogo.png" alt="logo" width="80" max-height="auto" />
+                </a>
+                @*<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>*@
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        @*<vc:category-menu></vc:category-menu> *@
+                        <li class="nav-item active">
+                            <a class="nav-link" asp-controller="Home" asp-action="Index">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Pie" asp-action="List">PIES</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a asp-controller="Contact" asp-action="Index" class="nav-link">CONTACT</a>
+                        </li>
+                    </ul>
+
+                    <div style="margin-right:150px;">
+                        <vc:shopping-cart-summary></vc:shopping-cart-summary>
+                    </div>
+                </div>
+            </nav>
+
+        </header>
+    </div>
+    <div>
+        @RenderBody()
+    </div>
+</body>
+</html>
+
+<style>
+    .custom-bg-color {
+        background-color: #CD9468;
+    }
+
+    .navbar-nav a {
+        color: #fff !important;
+    }
+
+    .navbar {
+        padding-left: 40px;
+    }
+
+    #navbarCollapse {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 40px;
+    }
+
+        #navbarCollapse a {
+            letter-spacing: 0.1rem;
+        }
+
+    body {
+        background: #F7F4F2;
+    }
+</style>

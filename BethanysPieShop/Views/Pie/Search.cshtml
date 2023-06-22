@@ -1,0 +1,57 @@
+﻿<div style="margin-left:20px; margin-right:20px;">
+    <div class="my-5">
+        <h3 class="mb-4">
+            Enter your search query
+        </h3>
+        <input id="txtPieName" type="text"/>
+        <button id="searchButton" class="btn btn-secondary">Search</button>
+    </div>
+    <table id="tblPies" cellpadding="0" cellspacing="0">
+        <tbody>
+
+        </tbody>
+    </table>
+</div>
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("button").click(function () {
+            var searchQuery = $.trim($("#txtPieName").val());
+            $("tbody").html("");
+            $.ajax({
+                type: "POST",
+                url: "/api/Search",
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                data: JSON.stringify(searchQuery), 
+                success: function (pies) {
+                    $.each(pies, function (i, pie) {
+                        $("tbody").append($("<tr>"));
+                        appendElement = $("tbody tr").last();
+                        appendElement.append($('<td><img src="' + pie.imageThumbnailUrl + '" width="350" class="rounded m-2"></td>'));
+                        appendElement.append($('<td><h2><a href="/pie/details/' + pie.pieId + '" class="pie-link">' + pie.name + '</a></h2></td>'));
+                    });
+                },
+                error: function (xhr, status, error) { 
+                    console.log(xhr);
+                    console.log("errors");
+                }
+            });
+        });
+    });
+</script>
+
+<style>
+    .pie-link,
+    .pie-link:hover {
+        all:unset;
+        color: #DE9453;
+        cursor: pointer;
+    }
+
+    .pie-link:hover {
+        text-decoration: underline;
+    }
+ 
+</style>
