@@ -10615,11 +10615,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PC\\source\\repos\\OnlinePieShop\\BethanysPieShop\\BethanysPieShop.csproj",
+      "projectUniqueName": "C:\\Users\\PC\\source\\repos\\BethanysPieShop\\BethanysPieShop\\BethanysPieShop.csproj",
       "projectName": "BethanysPieShop",
-      "projectPath": "C:\\Users\\PC\\source\\repos\\OnlinePieShop\\BethanysPieShop\\BethanysPieShop.csproj",
+      "projectPath": "C:\\Users\\PC\\source\\repos\\BethanysPieShop\\BethanysPieShop\\BethanysPieShop.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PC\\source\\repos\\OnlinePieShop\\BethanysPieShop\\obj\\",
+      "outputPath": "C:\\Users\\PC\\source\\repos\\BethanysPieShop\\BethanysPieShop\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",

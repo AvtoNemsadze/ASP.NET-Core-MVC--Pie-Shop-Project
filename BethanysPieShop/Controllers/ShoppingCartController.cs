@@ -46,5 +46,14 @@ namespace BethanysPieShop.Controllers
             }
             return RedirectToAction("Index");
         }
+
+
+        [HttpPost]
+        public IActionResult ClearCart()
+        {
+            _shoppingCart.ClearCart();
+            return RedirectToAction("Index");
+        }
+
     }
 }

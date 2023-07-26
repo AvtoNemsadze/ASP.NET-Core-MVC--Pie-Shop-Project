@@ -1,5 +1,11 @@
-﻿@model ShoppingCartViewModel;
+﻿@using BethanysPieShop.Controllers;
 
+@model ShoppingCartViewModel;
+
+@{
+    var controllerName = nameof(ShoppingCartController).Replace("Controller", "");
+    var lines = Model.ShoppingCart.ShoppingCartItems;
+}
 
 <section class="shopping-cart-container">
     <h3 class="my-5 ml-5">shopping cart</h3>
@@ -21,11 +27,18 @@
                                    </div>
                                </div>
                            </div>
+
+                            <div class="d-flex justify-content-end mb-3" style="margin-left:-10px;">
+                                <button class="btn btn-primary btn-small remove-cart-btn" id="removeCartBtn" data-pieid="@line.Pie.PieId">REMOVE CART</button>
+                            </div>
                        </div>
                    </div>
                 }
             </div>
 
+            
+        @if(lines.Count >= 1)
+        {
             <div class="col-4">
                 <div class="card shopping-cart-card p-3">
                     <div class="row">
@@ -40,7 +53,40 @@
                     </div>
                 </div>
             </div>
-        </div>
+        }
+        else
+        {
+            <div class="col-4">
+                <div class="card shopping-cart-card p-3">
+                    <div class="row">
+                        <h4 class="col">Total:</h4>
+                        <h4 class="col text-end">@Model.ShoppingCartTotal.ToString("c")</h4>
+                    </div>
+                    <hr />
+                    <div class="text-center d-grid">
+                        <a class="btn btn-secondary disabledClearBtn" asp-controller="Order" asp-action="Checkout" title="Link is disabled">
+                            <h4>Check out now!</h4>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
+        @if(lines.Count > 1)
+        {
+            <div class="d-flex justify-content-center mb-3 mt-4 clear-cart-wrapper">
+                <form method="post" asp-controller="ShoppingCart" asp-action="ClearCart">
+                    <button type="submit" class="btn btn-secondary btn-lg clear-all-cart">CLEAR ALL CART</button>
+                </form>
+            </div>
+        }
+        @if (lines.Count < 1)
+        {
+            <div class="d-flex justify-content-center">
+                <h2>Your Shopping Cart Is Empty</h2>
+            </div>
+        }
 </section>
 
 <style>
@@ -49,4 +95,53 @@
         margin-right: 40px;
         margin-top: 20px;
     }
+
+    .remove-cart-btn {
+        letter-spacing: 2px; 
+        width: 220px;
+        height:auto;
+    }
+
+    .clear-all-cart {
+        letter-spacing: 2px;
+        width:100%;
+    }
+
+    #removeCartBtn {
+        max-width:180px;
+    }
+
+    .disabledClearBtn {
+        pointer-events: none; 
+        cursor: not-allowed !important; 
+        opacity: 0.4;
+    }
 </style>
+
+<script>
+    var linesArray = @Html.Raw(Json.Serialize(lines));
+
+    $(document).ready(function () {
+        $('.disabledClearBtn').prop('disabled', true);
+
+        $('.remove-cart-btn').click(function () {
+            var pieId = $(this).data('pieid');
+            var buttonElement = this;
+
+            $.ajax({
+                url: '@Url.Action(nameof(ShoppingCartController.RemoveFromShoppingCart), controllerName)',
+                type: 'POST',
+                data: { pieId: pieId },
+                success: function (response) {
+                    $(buttonElement).closest('.shopping-cart-card').remove();
+                    location.reload()
+                },
+                error: function (error) {
+                    console.log('Error occurred:', error);
+                }
+            });
+        });
+    });
+
+</script>
+

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XQZrFaFZAkvXcWG91k1fngB2B18vSd7QNs4lT/Zagab8owvZ2cU6KkRkd6qdiVjvpcdzBH3xq4ehf6v/3M5RFw==",
+  "dgSpecHash": "RUzQgkAW49JvaM+IEtC5DZ41XjvlJoLwMQZms8PH7YRKYcoJxs2lul06V0n0O0jRJPGH4p3AgGohM4azTGoZSw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\PC\\source\\repos\\OnlinePieShop\\BethanysPieShop\\BethanysPieShop.csproj",
+  "projectFilePath": "C:\\Users\\PC\\source\\repos\\BethanysPieShop\\BethanysPieShop\\BethanysPieShop.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

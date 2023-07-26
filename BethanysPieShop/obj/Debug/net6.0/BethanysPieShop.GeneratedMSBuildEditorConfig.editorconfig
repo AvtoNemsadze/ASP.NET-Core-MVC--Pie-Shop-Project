@@ -9,89 +9,89 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BethanysPieShop
 build_property.RootNamespace = BethanysPieShop
-build_property.ProjectDir = C:\Users\PC\source\repos\OnlinePieShop\BethanysPieShop\
+build_property.ProjectDir = C:\Users\PC\source\repos\BethanysPieShop\BethanysPieShop\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\PC\source\repos\OnlinePieShop\BethanysPieShop
+build_property.MSBuildProjectDirectory = C:\Users\PC\source\repos\BethanysPieShop\BethanysPieShop
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/PC/source/repos/OnlinePieShop/BethanysPieShop/Pages/CheckoutCompletePage.cshtml]
+[C:/Users/PC/source/repos/BethanysPieShop/BethanysPieShop/Pages/CheckoutCompletePage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hlY2tvdXRDb21wbGV0ZVBhZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/source/repos/OnlinePieShop/BethanysPieShop/Pages/CheckoutPage.cshtml]
+[C:/Users/PC/source/repos/BethanysPieShop/BethanysPieShop/Pages/CheckoutPage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hlY2tvdXRQYWdlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/source/repos/OnlinePieShop/BethanysPieShop/Pages/Shared/_PageLayout.cshtml]
+[C:/Users/PC/source/repos/BethanysPieShop/BethanysPieShop/Pages/Shared/_PageLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9QYWdlTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/source/repos/OnlinePieShop/BethanysPieShop/Pages/_ViewImports.cshtml]
+[C:/Users/PC/source/repos/BethanysPieShop/BethanysPieShop/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/source/repos/OnlinePieShop/BethanysPieShop/Pages/_ViewStart.cshtml]
+[C:/Users/PC/source/repos/BethanysPieShop/BethanysPieShop/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/source/repos/OnlinePieShop/BethanysPieShop/Views/Contact/Index.cshtml]
+[C:/Users/PC/source/repos/BethanysPieShop/BethanysPieShop/Views/Contact/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/source/repos/OnlinePieShop/BethanysPieShop/Views/Home/Index.cshtml]
+[C:/Users/PC/source/repos/BethanysPieShop/BethanysPieShop/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/source/repos/OnlinePieShop/BethanysPieShop/Views/Order/Checkout.cshtml]
+[C:/Users/PC/source/repos/BethanysPieShop/BethanysPieShop/Views/Order/Checkout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQ2hlY2tvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/source/repos/OnlinePieShop/BethanysPieShop/Views/Order/CheckoutComplete.cshtml]
+[C:/Users/PC/source/repos/BethanysPieShop/BethanysPieShop/Views/Order/CheckoutComplete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQ2hlY2tvdXRDb21wbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/source/repos/OnlinePieShop/BethanysPieShop/Views/Pie/Details.cshtml]
+[C:/Users/PC/source/repos/BethanysPieShop/BethanysPieShop/Views/Pie/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGllXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/source/repos/OnlinePieShop/BethanysPieShop/Views/Pie/List.cshtml]
+[C:/Users/PC/source/repos/BethanysPieShop/BethanysPieShop/Views/Pie/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGllXExpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/source/repos/OnlinePieShop/BethanysPieShop/Views/Pie/Search.cshtml]
+[C:/Users/PC/source/repos/BethanysPieShop/BethanysPieShop/Views/Pie/Search.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGllXFNlYXJjaC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/source/repos/OnlinePieShop/BethanysPieShop/Views/Shared/Components/CategoryMenu/Default.cshtml]
+[C:/Users/PC/source/repos/BethanysPieShop/BethanysPieShop/Views/Shared/Components/CategoryMenu/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2F0ZWdvcnlNZW51XERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/source/repos/OnlinePieShop/BethanysPieShop/Views/Shared/Components/ShoppingCartSummary/Default.cshtml]
+[C:/Users/PC/source/repos/BethanysPieShop/BethanysPieShop/Views/Shared/Components/ShoppingCartSummary/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU2hvcHBpbmdDYXJ0U3VtbWFyeVxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/source/repos/OnlinePieShop/BethanysPieShop/Views/Shared/_Carousel.cshtml]
+[C:/Users/PC/source/repos/BethanysPieShop/BethanysPieShop/Views/Shared/_Carousel.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9DYXJvdXNlbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/source/repos/OnlinePieShop/BethanysPieShop/Views/Shared/_Layout.cshtml]
+[C:/Users/PC/source/repos/BethanysPieShop/BethanysPieShop/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/source/repos/OnlinePieShop/BethanysPieShop/Views/Shared/_PieCard.cshtml]
+[C:/Users/PC/source/repos/BethanysPieShop/BethanysPieShop/Views/Shared/_PieCard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QaWVDYXJkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/source/repos/OnlinePieShop/BethanysPieShop/Views/ShoppingCart/Index.cshtml]
+[C:/Users/PC/source/repos/BethanysPieShop/BethanysPieShop/Views/ShoppingCart/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHBpbmdDYXJ0XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/source/repos/OnlinePieShop/BethanysPieShop/Views/_ViewImports.cshtml]
+[C:/Users/PC/source/repos/BethanysPieShop/BethanysPieShop/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/source/repos/OnlinePieShop/BethanysPieShop/Views/_ViewStart.cshtml]
+[C:/Users/PC/source/repos/BethanysPieShop/BethanysPieShop/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
